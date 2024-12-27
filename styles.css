@@ -3,7 +3,6 @@
 html, body {
     margin: 0;
     height: 100%;
-    
 }
 
 body {
@@ -105,7 +104,6 @@ nav {
     align-items: center;
     background-color: #000000; 
     padding: 10px;
-    
 }
 
 .logo img {
@@ -114,7 +112,18 @@ nav {
     object-fit: contain; 
 }
 
+main .logo {
+    display: none;
+}
+
 h1 {
+    color: #FFC0CB;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+h2 {
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -171,3 +180,20 @@ p {
 }
 
 
+@media only screen and (max-width: 480px){
+    body {
+        grid-template-columns: 1fr;
+    }
+    header {
+        display: none;
+    }
+    main .logo {
+        display: flex;
+    }
+    main .logo img {
+        margin-right: 10px;
+    }
+    main h1 {
+        display: none;
+    }
+}

@@ -46,22 +46,30 @@ main {
 
 nav {
     flex: 1;
+    
+    flex-direction: column;
+    overflow-y: auto;
 }
 
 .opciones {
+    
     margin: 0;
     padding: 0;
     padding: 5px;
     justify-content: space-between;
+    flex-grow: 1;
+    
 }
 
 .opciones > li {
     display: flex;
-    margin-bottom: 15px;
+    flex-direction: row;
+    flex:1;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    height: 50px;
+    height: 10vh;
     background-color: rgb(25, 24, 24);
 }
 

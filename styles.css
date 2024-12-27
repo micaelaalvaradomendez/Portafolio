@@ -180,7 +180,7 @@ p {
 }
 
 
-@media only screen and (max-width: 480px){
+@media (max-width: 720px){
     body {
         grid-template-columns: 1fr;
     }

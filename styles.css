@@ -116,10 +116,20 @@ main .logo {
     display: none;
 }
 
+section {
+    padding: 10px;
+    margin-bottom: 500px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 h1 {
+    display: flex;
+    justify-content: center;
     color: #FFC0CB;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 10px;
 }
 
@@ -127,21 +137,30 @@ h2 {
     display: flex; 
     justify-content: center; 
     align-items: center;
-    color: #FFC0CB
+    color: #FFC0CB;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
-section {
-    padding: 10px;
-    margin-bottom: 150px;
-    box-sizing: border-box 
+h3 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: #d4787f;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px
     
 }
 
+
+
 button {
     background-color: #FFC0CB;
-    margin: 10px; 
+    margin: 10px;
     border: none;
-    color: rgb(2, 2, 2);
+    border-radius: 20px;
+    color: #4c2b2e;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -159,16 +178,61 @@ button:active {
     transform: translateY(2px);
 }
 
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hab-blandas{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hab-blandas > li {
+    list-style-type: none;
+    color:#fff;
+    margin-bottom: 30px
+}
+
+
+.tag {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: #fff;
+    white-space: nowrap;
+    
+}
+
+.tag-language, .tag-tools {
+    background-color: #FFC0CB;
+    color: #4c2b2e;
+}
+
 #contacto {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 300px;
 }
 
 
 p {
     color: whitesmoke;
+}
+
+#certif {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px; 
 }
 
 #sobre-mi {
@@ -177,6 +241,8 @@ p {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    margin-bottom: 500px;
+    margin-top: 40px;
 }
 
 

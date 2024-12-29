@@ -9,11 +9,9 @@ body {
     display: grid;
     color: rgb(146, 142, 142);
     font-family: "Confortaa";
-    
     display: grid;
     grid-template-areas:"header main";
     grid-template-columns:  200px 1fr;
-    
 }
 
 header {
@@ -45,7 +43,6 @@ main {
 
 nav {
     flex: 1;
-    
     flex-direction: column;
     overflow-y: auto;
 }
@@ -149,8 +146,7 @@ h3 {
     color: #d4787f;
     font-size: 25px;
     margin-top: 50px;
-    margin-bottom: 50px
-    
+    margin-bottom: 50px;
 }
 
 
@@ -170,7 +166,7 @@ button {
 }
 
 button:hover {
-    background-color: #eedadd; /
+    background-color: #eedadd; 
 }
 
 button:active {
@@ -198,7 +194,6 @@ button:active {
     margin-bottom: 30px
 }
 
-
 .tag {
     display: inline-block;
     margin: 5px;
@@ -206,8 +201,7 @@ button:active {
     border-radius: 20px;
     font-size: 0.9em;
     color: #fff;
-    white-space: nowrap;
-    
+    white-space: nowrap;   
 }
 
 .tag-language, .tag-tools {

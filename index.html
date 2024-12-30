@@ -12,7 +12,7 @@
         <div class="logo"><img src="icons/logotipo.jpeg"></div>
         <nav>
             <ul class="opciones">
-                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#aca">Sobre mí</a></li>
                 <li><a href="#habilidades">Mis habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -33,8 +33,10 @@
             <img src="icons/logotipo.jpeg">
             <h2> MICAELA ALVARADO MENDEZ </h2>
         </div>
-        <h1> MICAELA ALVARADO MENDEZ </h1>
+        <h1 id="aca"> MICAELA ALVARADO MENDEZ </h1>
+        
         <section id="sobre-mi">
+            <div class="linea"></div>
             <h2>Sobre mí</h2>
             <p>Estudiante de la Licenciatura en Sistemas en la Universidad Nacional de Tierra del Fuego (UNTDF).</p>
             <p>Me interesa el diseño de UI/UX, el desarrollo backend y la programacion OO y funcional</p>
@@ -43,6 +45,7 @@
             <button onclick="window.open('https://drive.google.com/file/d/1YLfvrgnmmY_fVXR73etrcBBeu0LFw-1l/view?usp=sharing');">Descargar CV</button>
         </section>
         <section id="habilidades">
+            <div class="linea"></div>
             <h2>Mis habilidades</h2>
                 <h3>Habilidades Blandas</h3>
                 <ul class="hab-blandas">
@@ -52,7 +55,7 @@
                     <li>Buena predisposición para enfrentar desafíos profesionales</li>
                     <li>Organización de múltiples responsabilidades, desde proyectos freelance hasta tareas administrativas y educativas.</li>
                     <li>Trabajo con equipo</li>
-                    <li>Empatía y atencion al cliente</li>
+                    <li>Empatía y comunicativa</li>
                     <li>Proactividad para aprender nuevas habilidades</li>
                     <li>Autoexigente y responsable</li>
                     <li>Demuestro tolerancia y manejo de conflictos mediante la resolución de situaciones desafiantes y un desempeño eficiente bajo presión.</li>
@@ -94,21 +97,38 @@
                 </div>
 
         </section>
+        <div class="linea"></div>
         <section id="proyectos">
-            <h2>Proyectos  ( en construccion ) </h2>
-            <p>Proyecto de Tableau</p>
-            <button  style="display: inline;" onclick="window.open('https://public.tableau.com/views/EntregaFinal-AlvaradoMendezMicaela-Tableau-Coderhouse/Portada?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link');">Proyecto en Tableau</button>
-            <button  style="display: inline;" onclick="window.open('https://drive.google.com/drive/folders/1s7ZKRIAn9h8DeEKs5qUFKMXae9w8zrla?usp=sharing');">Documentacion y archivos en Google Drive</button>
-            <p>Proyecto de Excel</p>
-            <button  style="display: inline;" onclick="window.open('https://github.com/micaelaalvaradomendez/Excel.git');">Proyecto en GitHub</button>
-            <p>Proyecto de Data Analytics</p>
-            <button  style="display: inline;" onclick="window.open('https://github.com/micaelaalvaradomendez/Data-Analytics.git');">Proyecto en GitHub</button>
-            <p>Proyecto de Programacion Oritentada a Objetos (UNTDF)</p>
-            <button  style="display: inline;" onclick="window.open('https://github.com/micaelaalvaradomendez/Java.git');">Proyecto en GitHub</button>
-            <p>Proyecto de Base de Datos I (UNTDF)</p>
-            <button  style="display: inline;" onclick="window.open('https://drive.google.com/drive/folders/1vl5_hAM63wXVS_fIcV1CyRYZ4JQMs3Lb?usp=sharing');">Archivos en GoogleDrive</button>
+            <h2>Proyectos</h2>
+            <div class="tableau">
+                <p>Proyecto de Tableau</p>
+                <img src="icons/Tableau.png">
+                <button onclick="window.open('https://public.tableau.com/views/EntregaFinal-AlvaradoMendezMicaela-Tableau-Coderhouse/Portada?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link');">Proyecto en Tableau</button>
+                <button onclick="window.open('https://drive.google.com/drive/folders/1s7ZKRIAn9h8DeEKs5qUFKMXae9w8zrla?usp=sharing');">Documentacion y archivos en Google Drive</button>
+            </div>
+            <div>
+                <p>Proyecto de Excel</p>
+                <img src="icons/Excel.png">
+                <button onclick="window.open('https://github.com/micaelaalvaradomendez/Excel.git');">Proyecto en GitHub</button>
+            </div>
+            <div>
+                <p>Proyecto de Data Analytics</p>
+                <img src="icons/Data.png">
+                <button onclick="window.open('https://github.com/micaelaalvaradomendez/Data-Analytics.git');">Proyecto en GitHub</button>
+            </div>
+            <div>
+                <p>Proyecto de Programacion Oritentada a Objetos (UNTDF)</p>
+                <img src="icons/PDOO.png">
+                <button onclick="window.open('https://github.com/micaelaalvaradomendez/Java.git');">Proyecto en GitHub</button>
+            </div>
+            <div>
+                <p>Proyecto de Base de Datos I (UNTDF)</p>
+                <img src="icons/BD1.png">
+                <button onclick="window.open('https://drive.google.com/drive/folders/1vl5_hAM63wXVS_fIcV1CyRYZ4JQMs3Lb?usp=sharing');">Archivos en GoogleDrive</button>
+            </div>
         </section>
         <section id="contacto">
+            <div class="linea"></div>
             <h2>Contacto</h2>
             <p>micaelaalvaradomendez@gmail.com</p>
             <button onclick="copiar()">Copiar correo</button>

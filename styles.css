@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Delius+Swash+Caps&family=Funnel+Display:wght@300..800&display=swap');
 
 html, body {
     margin: 0;
@@ -8,7 +8,7 @@ html, body {
 body {
     display: grid;
     color: rgb(146, 142, 142);
-    font-family: "Confortaa";
+    font-family: "Funnel Display";
     display: grid;
     grid-template-areas:"header main";
     grid-template-columns:  200px 1fr;
@@ -71,7 +71,8 @@ nav {
 
 .opciones > li > a {
     text-decoration: none;
-    color: #a7a5a5;
+    color: #cec9c9;
+    font-family: "Delius Swash Caps";
 }
 
 .opciones > li > a:hover {
@@ -131,15 +132,11 @@ section {
 h1 {
     display: flex;
     justify-content: center;
+    font-family: "Delius Swash Caps";
     color: #FFC0CB;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 10px;
-    text-shadow:
-    2px 2px 5px rgba(0, 0, 0, 0.6),
-    0 0 5px rgba(240, 172, 200, 0.8), 
-    0 0 8px rgba(44, 35, 38, 0.7);
-    
 }
 
 h2 {
@@ -147,10 +144,11 @@ h2 {
     justify-content: center; 
     align-items: center;
     color: #FFC0CB;
-    font-size: 30px;
     margin-bottom: 30px;
     margin-top: 60px;
     width: 100%;
+    font-family: "Delius Swash Caps";
+    font-size: 35px;
     text-shadow:
     2px 2px 4px rgba(0, 0, 0, 0.6),
     0 0 4px rgba(83, 70, 76, 0.8), 
@@ -162,6 +160,7 @@ h3 {
     justify-content: center; 
     align-items: center;
     color: #d4787f;
+    font-family: "Delius Swash Caps";
     font-size: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -179,6 +178,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: "Delius Swash Caps";
     font-size: 16px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -233,6 +233,7 @@ button:active {
 .tag-language, .tag-tools {
     background-color: #FFC0CB;
     color: #4c2b2e;
+    font-family: "Delius Swash Caps";
 }
 
 #contacto {

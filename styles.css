@@ -224,6 +224,12 @@ button:active {
     white-space: nowrap;   
 }
 
+.tag i {
+    font-size: 16px; 
+    color: #333;
+    margin-right: 5px;
+}
+
 .tag:hover {
     background-color: #FFC0CB;
     transform: scale(1.2); 
@@ -242,6 +248,11 @@ button:active {
     align-items: center;
     justify-content: center;
     margin-bottom: 300px;
+}
+#contacto > button > i {
+    font-size: 16px; 
+    color: #333;
+    margin-right: 5px;
 }
 
 

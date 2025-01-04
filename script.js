@@ -7,3 +7,4 @@ function copiar() {
             document.execCommand('copy');
             document.body.removeChild(input);
 }
+
